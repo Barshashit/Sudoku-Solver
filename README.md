@@ -1,12 +1,10 @@
-The project "Snake's Game" is an excellent example of a project for data structures and algorithms. 
-It utilizes arrays to implement the well-known Snake game, where a user-controlled snake moves around a grid,
-consuming food to grow while avoiding collisions with walls and its own body. 
-This project not only offers an enjoyable gaming experience but also demonstrates the application of data structures and algorithms in game development.
-The grid is first represented as a 2D array in the Snakes Game project, along with the snake's beginning position and direction. 
-The user can then use the arrow keys to direct the snake during the game's looping portion. 
-In the following loop iterations, the snake's movement is updated, and arrays are used to check for collisions with the walls and the snake's body.
-The arrays are used to maintain track of the locations of the food and the placements of the snake's body parts. 
-The snake expands by one segment as it consumes the meal, updating the array of its body segments. 
-The game ends when the snake slams into the walls or its own body.
-The Snakes Game project shows how arrays can be used in real-world settings to design a well-known game. 
-It is helpful for those who want to learn how to use arrays in game creation as well as for game creators themselves.
+Sudoku solver mini projects on data structures and algorithms use the backtracking algorithm to resolve Sudoku puzzles. 
+Sudoku is a logic-based number puzzle game that requires you to fill in a 9x9 grid with numbers from 1 to 9, with no repetitions allowed in the rows, columns, or 3x3 subgrids.
+
+The first step in the Sudoku Solver project is to draw the puzzle as a 9x9 grid and fill it in with the specified numbers. 
+The puzzle is then solved using the backtracking approach by iteratively trying out various values in each cell until a solution is discovered.
+
+When the backtracking algorithm runs into a dead end, that is, when it comes into a contradiction that renders the problem impossible to solve, it will turn around and try another possible solution for each cell in the grid. 
+Once a viable answer is found, the algorithm goes back and tests different values in the earlier cells.
+
+The Sudoku Solver data structures and algorithms projects show how the backtracking algorithm can be used in real-world situations to solve challenging puzzles like Sudoku. It is beneficial for puzzle fans, game creators, and anybody else interested in logic-based problem-solving.
